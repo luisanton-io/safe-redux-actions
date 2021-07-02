@@ -2,7 +2,7 @@
   "name": "safe-redux-actions",
   "version": "1.0.0",
   "description": "A minimal TS implementation to type-check Redux actions",
-  "main": "./src",
+  "main": "./build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
