@@ -5,7 +5,9 @@
 
 #### Install: ```npm i safe-redux-actions```
 
+### Live example
 
+- [Minimal Counter Example](https://codesandbox.io/s/github/luisanton-io/sra-counter-example)
 
 ### 1. Create an action maker using `createActionMaker`
 
