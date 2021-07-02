@@ -4,6 +4,6 @@ export const createActionMaker = <A>() => <T extends keyof A, P>(type: T, payloa
 });
 
 
-export type Action<T extends Record<string, (...p: any) => any>> = ReturnType<
+export type SingleAction<T extends Record<string, (...p: any) => any>> = ReturnType<
     T[keyof T]
 >;
