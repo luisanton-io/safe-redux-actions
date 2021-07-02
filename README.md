@@ -1,6 +1,11 @@
-# Safe Redux Actions
+# S A F E - R E D U X - A C T I O N S
+##### <div align="right">by [Luis Antonio Canettoli Ordoñez](http://luisanton.io)</div>
 
-Easily add typings to your Redux actions.
+### Easily add typings to your Redux actions.
+
+#### Install: ```npm i safe-redux-actions```
+
+
 
 ### 1. Create an action maker using `createActionMaker`
 
