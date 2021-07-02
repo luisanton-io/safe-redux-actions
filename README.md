@@ -84,5 +84,19 @@ export default function rootReducer(state = initialState, action: Action) {
   }
 }
 ```
+### Appendix
+
+The goal of this package was making possible to easily type a basic Redux implementation with as little code as possible.
+Here is the actual full code base of `safe-redux-actions`.
+
+```ts
+export const createActionMaker = <A>() => <T extends keyof A, P>(type: T, payload?: P) => ({
+    type,
+    payload: payload!
+});
 
 
+export type SingleAction<T extends Record<string, (...p: any) => any>> = ReturnType<
+    T[keyof T]
+>;
+```
